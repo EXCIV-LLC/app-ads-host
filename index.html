@@ -11,37 +11,72 @@
       padding: 0;
       background: #f4f4f4;
     }
+
     header {
       background-color: #1c2b33;
       padding: 20px;
       text-align: center;
     }
+
     nav a {
       color: white;
       margin: 0 20px;
       text-decoration: none;
       font-weight: bold;
     }
+
     .hero {
       background-color: #2c3e50;
       color: white;
       text-align: center;
       padding: 80px 20px 40px;
     }
+
     .hero h1 {
       font-size: 48px;
       margin: 0;
     }
+
     section {
       max-width: 800px;
       margin: 30px auto;
       padding: 0 20px;
     }
+
     footer {
       background-color: #1c2b33;
       color: white;
       text-align: center;
       padding: 10px;
+    }
+
+    /* お知らせ枠のスタイル */
+    #news h2 {
+      color: #2c3e50;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .news-card {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+    }
+
+    .news-card h3 {
+      margin-top: 0;
+      color: #1c2b33;
+    }
+
+    .news-card a {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    .news-card a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
@@ -51,6 +86,7 @@
     <nav>
       <a href="#home">ホーム</a>
       <a href="#about">会社概要</a>
+      <a href="#news">お知らせ</a>
       <a href="#contact">問い合わせ</a>
     </nav>
   </header>
@@ -69,6 +105,15 @@
     <p>代表者：神谷 文久</p>
     <p>資本金：100万円</p>
     <p>事業内容：ソフトウェア開発、モバイルアプリ制作、Webシステム構築、コンサルタント</p>
+  </section>
+
+  <section id="news">
+    <h2>お知らせ</h2>
+    <div class="news-card">
+      <h3>📱スマホゲーム「ミニサバイバー」リリース！</h3>
+      <p>2025年7月30日、スマホ向けサバイバルゲーム「ミニサバイバー」をGoogle Playで公開しました。</p>
+      <p><a href="https://play.google.com/store/apps/details?id=your.game.package" target="_blank">▶ Google Playで見る</a></p>
+    </div>
   </section>
 
   <section id="contact">
